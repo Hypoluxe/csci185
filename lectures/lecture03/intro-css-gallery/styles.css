@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+body {
+    background-color: rgb(85, 82, 82);
+    font-family: 'Special Elite', cursive;
+    color: white;
+}
+
+header{
+    background-color: rgb(28, 106, 37);
+    padding: 30px;
+}
+
+section{
+    display:inline-block;
+    padding: 20px;
+    border:solid 1px black;
+    background-color: rgb(223, 222, 222);
+    margin: 30px;
+}
+
+section > p{
+    color: rgb(73, 73, 72);
+}
+
+main{
+    background-color: #979897;
+}

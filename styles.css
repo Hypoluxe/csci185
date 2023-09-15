@@ -1,14 +1,21 @@
-/* You're welcome to change any of this! */
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;500&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    align-content: center;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: larger;
+    background-color: #666565;
 }
-
+h2{
+    font-family: 'Tomorrow', sans-serif;
+    font-weight: 100;
+}
 p, a, li {
     line-height: 1.5em;
-    font-size: 1.1em;
+    font-size: large;
+    font-weight: 400;
 }
