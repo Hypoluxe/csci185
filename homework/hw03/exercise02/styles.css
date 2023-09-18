@@ -1,9 +1,16 @@
 body {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
-
+main{
+   margin-left: 15vw; 
+   margin-right: 15vw;
+}
+p{
+    font-weight: bold;
+}
 header {
-    background-color: #45425a;
+    background-color: #3a3656;
     color: white;
     padding: 20px;
 }
@@ -32,6 +39,42 @@ code {
     column-gap: 20px;
 }
 
+#card1 img{
+background: #EEEEEE;
+border-radius: 50%;
+ }
+ #card1{
+   background: #EEEEEE;
+ }
+
+#card2{
+  background:#bce5d6; 
+}
+
+#card3 img{
+  background: #EEEEEE;
+    border-radius: 50%;
+    }
+    #card3{
+        background: #EEEEEE;
+    }
+
+#card4{
+    background:#bce5d6; 
+}
+
+#card5 img{
+    background: #EEEEEE;
+    border-radius: 50%;
+}
+#card5{
+    background: #EEEEEE;
+}
+
+#card6{
+    background:#bce5d6; 
+}
+
 .card {
     border: solid 2px #000;
     padding: 10px;
@@ -47,4 +90,5 @@ footer {
     padding: 30px;
     margin-top: 30px;
     text-align: center;
+    font-weight: bold;
 }

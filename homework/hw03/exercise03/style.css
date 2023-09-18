@@ -1,7 +1,8 @@
-/* 
-   Tip: The @import link to the Google font needs to be on the first line
-   of the stylesheet (above this comment).
-*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Special+Elite&display=swap');
+
+h1,h2{
+    font-family: 'Lobster', cursive;  
+}
 
 html {
     scroll-behavior: smooth;
