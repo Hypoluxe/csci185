@@ -1,21 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@100;500&display=swap');
 * {
     box-sizing: border-box;
 }
+header{
+color: rgb(224, 218, 218);
+}
 
 body {
-    margin: 0px;
-    align-content: center;
-    font-family: 'Tomorrow', sans-serif;
+    margin: 70px;
+    align-content:center;
+    font-family: 'EB Garamond', serif;
     font-size: larger;
-    background-color: #666565;
+    background-color:#001405;
+    background-image: url("https://www.transparenttextures.com/patterns/white-diamond.png");
 }
+
 h2{
-    font-family: 'Tomorrow', sans-serif;
+    font-family:'EB Garamond', serif;
     font-weight: 100;
+    color: rgb(255, 255, 255);
 }
+
 p, a, li {
+    font-family:'EB Garamond', serif;
     line-height: 1.5em;
     font-size: large;
-    font-weight: 400;
+    font-weight: 500;
+    color: rgb(176, 175, 175);
 }
