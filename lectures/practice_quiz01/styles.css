@@ -1,0 +1,25 @@
+body{
+background-color: rgb(187, 187, 187);
+}
+img{
+    width: 500px;
+padding-left: 30%;
+}
+a{
+    color:rgb(182, 83, 132);
+}
+nav{
+border: solid 1px rgba(217, 19, 111, 0.545);
+padding: 2%;
+}
+header, footer{
+background-color: rgb(139, 150, 179);
+}
+section{
+    width: 400px;
+    display: inline-block;
+    border: solid 2px lightpink
+}
+#section2{
+    background-color: hotpink;
+}
