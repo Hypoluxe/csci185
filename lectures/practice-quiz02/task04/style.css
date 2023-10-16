@@ -1,0 +1,28 @@
+
+body {
+    margin: 100px;
+   font-family: Arial;
+   box-sizing: border-box; 
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #CCC; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    transition: all 1s ease-out; 
+}  
+
+.one :hover {
+    color: rgb(27, 87, 44);
+    opacity: 0.5;
+}
+
