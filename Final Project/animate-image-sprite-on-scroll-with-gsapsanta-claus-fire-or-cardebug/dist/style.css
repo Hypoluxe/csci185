@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  font-family: "Roboto", sans-serif;
+}
+
+.c-section {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  padding: 100px 20px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 8000px;
+}
+.c-section__wrapper-product {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 200px;
+}
+
+.c-sprite {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+.is-debug .c-sprite {
+  overflow: visible;
+}
+.is-debug .c-sprite::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: 2px solid green;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.c-sprite__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: none;
+  display: none;
+}
+.c-sprite__img.is-active {
+  display: block;
+}
+.is-debug .c-sprite__img {
+  outline: 1px solid red;
+}
+
+.c-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: auto;
+  height: auto;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}
+.c-controls__button {
+  width: auto;
+  padding: 10px;
+  background-color: #0A0F0F;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 32px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+}
+.c-controls__button:hover, .c-controls__button.is-active {
+  background-color: #FFFFFF;
+  color: #0A0F0F;
+}
