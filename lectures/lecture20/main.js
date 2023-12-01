@@ -11,7 +11,11 @@ function search() {
     ///console.log(data[i]. Title);
    //// console.log(data[i].Instructors[0]. Name);
     for ( let i = 0; i < data. length; i++)  {
-    document.querySelector(".courses").innerHTML +=  `
+        let instructor = "TBD;"
+        if (data[i] .Instructors.length > 0 ){
+            instructor = data[i] .Instructors [0] .Name;
+        }
+        const htmlSnippet =  `
     <section class="course">
     <h2> ${data[i].Code}: ${data [i].Title}</h2>
     <p>
@@ -19,9 +23,12 @@ function search() {
          ${data [i].Location .FullLocation} &bull;
          ${data [i] .Hours} credit hour(s);
     </p>
-    <p><strong> TBD </strong></p>
+    <p><strong> Instructor </strong></p>
 </section>
     `;
+    document
+        .querySelector(".courses")
+        .insertAdjacentHTML("beforeend", htmlSnippet);
 }
     console.log(data);
     const searchTerm = document.querySelector('#search_term').value;
