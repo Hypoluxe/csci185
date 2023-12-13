@@ -15,19 +15,24 @@ h1,p {
     justify-content: center;
     align-items: center ;
 }
+p{
+    font-size: 20px;
+    color: #7a7878;
+}
 h1{
+    font-size: 50px;
     color: #6d1a17;
 }
-p{
-    font-size: 25px;
-    color: rgb(130, 39, 39);
+h2{
+    font-size: 22px;
+    color:rgb(165, 162, 162);
+    text-align: center;
 }
 .navbar {
     padding: 20px;
-    font-size: 25px;
+    font-size: 23px;
     background-color: #313030;
     display: flex;
-    color: rgba(145, 21, 12, 0.899);
     align-items: center;
     justify-content: center;
 }
@@ -40,18 +45,31 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.navbar a, .navbar strong {
+.navbar a{
     margin-right: 15px;
 }
-
-.photo-section {
-    display:grid;
-    width: 100%;
-    padding-bottom: 50px;
-    padding-top: 25px;
-
+.picture{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:65%;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
+
 .photo-section img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #6c6b6b;
+}
+.photo-section2 img{
     width: 50%;
-    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 2px solid #6c6b6b;
+
 }
